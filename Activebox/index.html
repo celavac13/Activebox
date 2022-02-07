@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
         <link rel="stylesheet" type="text/css" href="resuorces/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resuorces/css/queries.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
@@ -14,23 +15,26 @@
             <div class="row">
                 <nav>
                     <img src="resuorces/img/ActiveBox.png" class="logo" alt="logo">
-                    <ul class="main-nav">
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Download</a></li>
-                    </ul>
+                    <div class="hamburger-menu">
+                        <ul class="main-nav" id="js--nav">
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#download">Download</a></li>
+                        </ul>
+                        <a class="toggle-btn"><ion-icon class="js--ion" name="menu-outline"></ion-icon></a>
+                    </div>
                 </nav>
             </div>
             <div class="hero-text-box">
                     <h1>Your favorite one page multi purpose template</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
                         vel scelerisque nisl consectetur et.</p>
-                    <a href="#" class="btn">Find out more</a>
+                    <a href="#features" class="btn">Find out more</a>
             </div>
         </header>
-        <section class="section-features">
+        <section class="section-features" id="features">
             <div class="row">
                 <div class="feature-box">
                     <img src="resuorces/img/fEasily.png" alt="Pencil">
@@ -64,7 +68,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-works">
+        <section class="section-works" id="works">
             <ul class="work-showcase">
                 <li>
                     <img src="resuorces/img/work1.png" alt="About work">
@@ -98,10 +102,10 @@
                 </li>
             </ul>
         </section>
-        <section class="section-team">
+        <section class="section-team" id="team">
             <div class="row">
                 <div class="team-box">
-                    <img src="resuorces/img/tRouth.png">
+                    <img class="team-img" src="resuorces/img/tRouth.png" alt="Ruth Woods">
                     <h2>Ruth Woods</h2>
                     <p><span>founder, ceo</span></p>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -112,7 +116,7 @@
                     </div>
                 </div>
                 <div class="team-box">
-                    <img src="resuorces/img/tTimothy.png">
+                    <img class="team-img" src="resuorces/img/tTimothy.png" alt="timothy Reed">
                     <h2>Timothy Reed</h2>
                     <p><span>co-founder, developer</span></p>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -123,7 +127,7 @@
                     </div>
                 </div>
                 <div class="team-box">
-                    <img src="resuorces/img/tVictoria.png">
+                    <img class="team-img" src="resuorces/img/tVictoria.png" alt="Victoria Valdez">
                     <h2>Victoria Valdez</h2>
                     <p><span>ui designer</span></p>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -134,7 +138,7 @@
                     </div>
                 </div>
                 <div class="team-box">
-                    <img src="resuorces/img/tBeverly.png">
+                    <img class="team-img" src="resuorces/img/tBeverly.png" alt="Beverly Little">
                     <h2>Beverly Little</h2>
                     <p><span>data scientist</span></p>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -146,7 +150,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-clients">
+        <section class="section-clients" id="testimonials">
             <div class="client-box-left"></div>
             <div class="client-box-right">
                 <div class="content-carusel">
@@ -162,7 +166,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-download">
+        <section class="section-download" id="download">
             <div class="row download-box">
                 <h2>Are You Ready to Start? Download Now For Free!</h2>
                 <p>Fusce dapibus, tellus ac cursus commodo</p>
@@ -194,9 +198,13 @@
             <div class="footer-copyrights">
                 <p>
                     Copyright © 2015 ActiveBox. All Rights Reserved<br>
-                    Made with Y by <span>Kamal Chaneman</span>
+                    Made with <ion-icon name="heart"></ion-icon> by <span>Kamal Chaneman</span>
                 </p>
             </div>
         </footer>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="resuorces/js/index.js"></script>
     </body>
 </html>

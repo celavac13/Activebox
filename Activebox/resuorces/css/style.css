@@ -79,9 +79,19 @@ nav {
     font-size: 13px;
     font-family: "Raleway";
     color: rgba(255, 255, 255, 0.749);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 1.2;  
+}
+
+.toggle-btn {
+    display: none;
+}
+
+nav a ion-icon {
+    cursor: pointer;
+    color: #fff;
+    font-size: 40px;
 }
 
 /* TEXT IN HEADER */
@@ -165,19 +175,11 @@ nav {
     justify-content: center;
 }
 
-.work-showcase:first-child {
-    margin-bottom: 0;
-}
-
-.work-showcase:last-child {
-    margin-top: -4px;
-}
-
 .work-showcase li {
     width: 25%;
     height: auto;
     overflow: hidden;
-    margin: 0.5px;
+    margin: 0 0.5px;
 }
 
 .work-showcase li img {
@@ -428,4 +430,7 @@ nav {
 .footer-copyrights span {
     color: #fff;
 }
-  
+
+.footer-copyrights ion-icon {
+    color: #e84545;
+}
