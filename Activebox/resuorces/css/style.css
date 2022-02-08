@@ -173,13 +173,14 @@ nav a ion-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -0.5px;
 }
 
 .work-showcase li {
     width: 25%;
     height: auto;
     overflow: hidden;
-    margin: 0 0.5px;
+    margin: 0 0.5px -2.5px 0.5px;
 }
 
 .work-showcase li img {
