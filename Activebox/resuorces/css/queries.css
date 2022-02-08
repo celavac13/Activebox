@@ -97,6 +97,10 @@
         flex-wrap: wrap;
     }
 
+    .modal-box {
+        width: 100%;
+    }
+
     .work-showcase li {
         width: 49%;
     }
