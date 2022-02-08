@@ -284,14 +284,14 @@ nav a ion-icon {
     margin-left: -1px;
 }
 
-.content-carusel {
+.content-carousel {
     position: absolute;
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
 }
 
-.content-carusel h2 {
+.content-carousel h2 {
     font-size: 36px;
     font-family: "Cardo";
     color: rgb(255, 255, 255);
@@ -302,7 +302,7 @@ nav a ion-icon {
     margin-bottom: 44px;
 }
   
-.content-carusel p {
+.content-carousel p {
     font-size: 13px;
     font-family: "Raleway";
     color: rgb(255, 255, 255);

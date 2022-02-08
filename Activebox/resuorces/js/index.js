@@ -26,7 +26,7 @@ toggleBtn.addEventListener("click" , () => {
 //carousel
 
 dotsHolder.addEventListener("click", () => {
-    fetch("resuorces/js/coments.json")
+    fetch("resuorces/js/comments.json")
     .then(response => response.json())
     .then(data => carouselComments(data, indexSlider));
 });

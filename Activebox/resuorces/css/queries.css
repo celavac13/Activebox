@@ -30,7 +30,7 @@
         justify-content: space-around;
     }
 
-    .content-carusel h2 {
+    .content-carousel h2 {
         font-size: 30px;
     }
     
@@ -113,11 +113,11 @@
         width: 60%;
     }
     
-    .content-carusel h2 {
+    .content-carousel h2 {
         font-size: 28px;
     }
 
-    .content-carusel p {
+    .content-carousel p {
         font-size: 12px;
         margin-bottom: 35px;
     }
